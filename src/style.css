@@ -18,3 +18,82 @@ body
     outline: none;
     z-index: -1;
 }
+
+/* original css stuff*/
+
+@font-face {
+    font-family: magdacleanmono;
+	src: url(font/magdacleanmono-bold.ttf);
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+body {
+	font-family:"magdacleanmono";
+    text-transform: uppercase;
+}
+.promptContainer {
+	height: 40%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+  
+}
+
+.respContainer {
+	height: 40%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.empty {
+	height: 20%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.prompt {
+	font-weight: 100;
+	font-size: 28px;
+	color: #303030;
+}
+
+.response {
+	font-weight: 100;
+	font-size: 28px;
+	color: #303030;
+
+	
+/*  ---mirror--- */	
+	transform: rotateX(180deg)
+	
+/*  ---180---
+    -moz-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -ms-transform: scale(-1, -1);
+    transform: scale(-1, -1);
+*/
+}
+
+.temp {
+  color: #4a4a4a;
+}
+
+
+body, html {
+	margin: 0;
+    height: 100%;
+	
+	background: rgb(255,50,89);
+
+	background: linear-gradient(180deg, rgba(255,50,89,1) 10%, rgba(238,89,109,1) 90%);
+	}
